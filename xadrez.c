@@ -34,6 +34,19 @@ int main() {
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
+    int vertical = 1, horizontal = 1;
+
+    printf("\nCavalo move:\n");
+
+    do{
+        while (vertical <= 2){
+            printf("Cima\n");
+            vertical++;
+        }
+        printf("Esquerda\n");
+        horizontal++;
+    }while(horizontal <= 1);
+
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
